@@ -1,4 +1,3 @@
-#начни тут создавать приложение с умными заметк
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QPushButton, QHBoxLayout, QTextEdit, QListWidget, QLineEdit, QInputDialog
 import json
@@ -12,12 +11,7 @@ import json
 #with open('notes_data.json', 'w') as file:
 #    json.dump(notes, file)
 
-
-
 app = QApplication([])
-
-
-
 
 notes_win = QWidget()
 notes_win.setWindowTitle('Заметка')
