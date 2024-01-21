@@ -8,12 +8,12 @@ window = QWidget()
 window.setWindowTitle('Меню Card')
 
 btn_OK = QPushButton('Ответить')
-lb_Question = QLabel('Почему застрелился Гитлер?')
+lb_Question = QLabel('Почему надо спать?')
 
 RadioGroupBox = QGroupBox('Варианты ответов')
 a = QRadioButton('По приколу')
-b = QRadioButton('Дипрессия')
-c = QRadioButton('Проиграл войну')
+b = QRadioButton('Депрессия')
+c = QRadioButton('Просто спи')
 d = QRadioButton('Бог знает')
 
 layout_ans1 = QHBoxLayout()
